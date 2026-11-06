@@ -1,0 +1,34 @@
+{
+ "consensus_signature": [
+  "ZSCAN18",
+  "SLC25A38",
+  "FOXD1",
+  "JPH1",
+  "CTF1",
+  "KLHL21",
+  "PLXNB1",
+  "CDCA7L"
+ ],
+ "counts": {
+  "ZSCAN18": 7,
+  "SLC25A38": 10,
+  "FOXD1": 5,
+  "JPH1": 10,
+  "CTF1": 8,
+  "KLHL21": 5,
+  "PTP4A3": 2,
+  "TPRG1L": 3,
+  "PLXNB1": 10,
+  "SLC41A3": 3,
+  "CDCA7L": 6,
+  "SLC25A26": 1,
+  "SLCO5A1": 3,
+  "ANPEP": 2,
+  "RHOD": 2,
+  "TCEB1": 1
+ },
+ "oasis_seed_sd": {
+  "GSE22138": 0.02417885938074252,
+  "GSE44295": 0.03048439754833861
+ }
+}

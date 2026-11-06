@@ -1,0 +1,9 @@
+gene,cytoband,cox_coef,direction,seeds_selected,r_expr_CNA,r_expr_meth,log2expr_mono3,log2expr_disomy3
+ZSCAN18,19q13.43,-0.315,protective,7/10,0.04,-0.12,9.27,10.57
+SLC25A38,3p22.1,-0.441,protective,10/10,0.78,-0.78,8.16,10.25
+FOXD1,5q13.2,0.372,risk ↑,5/10,0.03,-0.38,5.16,2.12
+JPH1,8q21.11,0.949,risk ↑,10/10,0.67,-0.06,7.14,4.47
+CTF1,16p11.2,-0.096,protective,8/10,0.1,-0.67,4.87,7.91
+KLHL21,1p36.31,-0.724,protective,5/10,0.64,-0.68,11.73,12.48
+PLXNB1,3p21.31,0.828,risk ↑,10/10,0.8,-0.88,11.25,13.08
+CDCA7L,7p15.3,-0.277,protective,6/10,0.12,-0.73,9.16,10.39

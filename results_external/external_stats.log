@@ -1,0 +1,39 @@
+  cohort                            method  harrell_C  ci_low  ci_high  uno_C  uno_tau  tdAUC_36  tdAUC_60  brier_36  diff_vs_ref  p_boot
+GSE22138               15-gene-class proxy      0.703   0.600    0.805  0.704   51.150     0.750     0.643     0.207        0.031   0.364
+GSE22138       15-gene-class proxy + PRAME      0.689   0.592    0.785  0.683   51.150     0.762     0.650     0.206        0.045   0.194
+GSE22138      Adaptive LASSO, no anchoring      0.717   0.620    0.805  0.715   51.150     0.782     0.744     0.217        0.017   0.296
+GSE22138  Adaptive LASSO, positional prior      0.745   0.653    0.832  0.741   51.150     0.817     0.784     0.177       -0.011   0.246
+GSE22138           Anchored adaptive LASSO      0.734   0.636    0.822  0.727   51.150     0.791     0.764     0.191        0.000     NaN
+GSE22138                   Cox elastic net      0.728   0.633    0.813  0.740   51.150     0.827     0.818     0.462        0.007   0.856
+GSE22138                         Cox-LASSO      0.705   0.614    0.791  0.716   51.150     0.802     0.792     0.462        0.029   0.434
+GSE22138 OASIS agent (original, consensus)      0.730   0.631    0.822  0.722   51.150     0.789     0.736     0.229        0.004   0.948
+GSE22138   OASIS-2 agent (policy ensemble)      0.725   0.628    0.814  0.725   51.150     0.783     0.759     0.216        0.010   0.732
+GSE22138  OASIS-2 agent (single signature)      0.762   0.667    0.848  0.761   51.150     0.832     0.799     0.178       -0.027   0.152
+GSE22138            Random survival forest      0.721   0.619    0.810  0.723   51.150     0.792     0.764     0.195        0.014   0.588
+GSE22138     Univariate top-10 + ridge Cox      0.751   0.652    0.841  0.746   51.150     0.819     0.825     0.181       -0.016   0.510
+GSE44295               15-gene-class proxy      0.684   0.584    0.780  0.712   38.676     0.798     0.703     0.178        0.096   0.116
+GSE44295       15-gene-class proxy + PRAME      0.724   0.631    0.822  0.748   38.676     0.830     0.761     0.159        0.056   0.332
+GSE44295      Adaptive LASSO, no anchoring      0.708   0.603    0.800  0.723   38.676     0.785     0.647     0.188        0.073   0.016
+GSE44295  Adaptive LASSO, positional prior      0.780   0.680    0.868  0.786   38.676     0.844     0.679     0.167        0.000   0.976
+GSE44295           Anchored adaptive LASSO      0.780   0.679    0.866  0.788   38.676     0.846     0.688     0.171        0.000     NaN
+GSE44295                   Cox elastic net      0.740   0.644    0.833  0.736   38.676     0.811     0.730     0.351        0.041   0.358
+GSE44295                         Cox-LASSO      0.729   0.625    0.827  0.730   38.676     0.806     0.793     0.351        0.051   0.294
+GSE44295 OASIS agent (original, consensus)      0.734   0.631    0.826  0.744   38.676     0.785     0.627     0.203        0.046   0.212
+GSE44295   OASIS-2 agent (policy ensemble)      0.724   0.622    0.813  0.727   38.676     0.747     0.608     0.260        0.056   0.160
+GSE44295  OASIS-2 agent (single signature)      0.781   0.688    0.865  0.782   38.676     0.840     0.768     0.170       -0.001   0.962
+GSE44295            Random survival forest      0.744   0.649    0.830  0.750   38.676     0.819     0.713     0.182        0.037   0.314
+GSE44295     Univariate top-10 + ridge Cox      0.711   0.610    0.802  0.715   38.676     0.797     0.726     0.196        0.069   0.084
+log-rank: {'GSE22138': np.float64(0.00026717219462852845), 'GSE44295': np.float64(0.0003077382441782762)}
+                           method  n  events     C  C_mono3_alone  HR_per_SD  HR_lo  HR_hi  p_score_adj  HR_mono3  p_mono3_adj  n_mono3  C_within_mono3
+    Univariate top-10 + ridge Cox 55      29 0.770          0.658      2.385  1.564  3.637        0.000     2.325        0.158       37           0.714
+           Random survival forest 55      29 0.741          0.658      2.213  1.425  3.436        0.000     2.485        0.121       37           0.685
+ Adaptive LASSO, positional prior 55      29 0.774          0.658      3.067  1.623  5.793        0.001     1.095        0.903       37           0.718
+ OASIS-2 agent (single signature) 55      29 0.772          0.658      2.540  1.483  4.350        0.001     1.646        0.453       37           0.731
+          Anchored adaptive LASSO 55      29 0.761          0.658      2.450  1.434  4.187        0.001     1.531        0.537       37           0.696
+  OASIS-2 agent (policy ensemble) 55      29 0.735          0.658      2.218  1.345  3.656        0.002     2.790        0.077       37           0.694
+              15-gene-class proxy 55      29 0.753          0.658      2.050  1.288  3.263        0.002     2.684        0.097       37           0.716
+      15-gene-class proxy + PRAME 55      29 0.728          0.658      1.817  1.168  2.827        0.008     3.294        0.039       37           0.703
+OASIS agent (original, consensus) 55      29 0.733          0.658      1.715  1.149  2.560        0.008     2.938        0.070       37           0.678
+                  Cox elastic net 55      29 0.733          0.658      1.755  1.109  2.776        0.016     3.212        0.046       37           0.685
+     Adaptive LASSO, no anchoring 55      29 0.741          0.658      1.389  1.044  1.847        0.024     3.770        0.020       37           0.670
+                        Cox-LASSO 55      29 0.717          0.658      1.493  0.967  2.305        0.071     3.547        0.033       37           0.661

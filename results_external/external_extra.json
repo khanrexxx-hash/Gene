@@ -1,0 +1,40 @@
+{
+ "monosomy3": {
+  "n_known": 55,
+  "n_mono3": 37,
+  "events_mono3": 25,
+  "n_disomy": 18,
+  "events_disomy": 4
+ },
+ "markers_plus_score_GSE22138": {
+  "tcga_coef_chr3": -1.891563723477076,
+  "tcga_coef_score_perSD": 2.516947649705775,
+  "C_mono3": 0.6582159624413145,
+  "C_score": 0.7605633802816901,
+  "C_mono3_plus_score": 0.7380281690140845,
+  "diff": 0.07981220657277,
+  "diff_lo": -0.021663777438378672,
+  "diff_hi": 0.17808442803107752,
+  "p_boot": 0.119
+ },
+ "scoring": {
+  "lp_mean_tcga": 4.4127851864847993e-16,
+  "recalibration_slope": 1.2595081273856321,
+  "S0_36_at_score0": 0.7811150779627787,
+  "note": "score = sum coef*(x-mean)/sd with x = log2(RSEM+1); S(36|x) = S0_36 ** exp(slope * score). Valid only for TCGA-comparable RNA-seq; not validated for single samples on other platforms."
+ },
+ "early_events": [
+  [
+   "GSM550625",
+   0.39
+  ],
+  [
+   "GSM550635",
+   0.92
+  ],
+  [
+   "GSM550663",
+   0.13
+  ]
+ ]
+}

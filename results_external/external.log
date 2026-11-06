@@ -1,0 +1,20 @@
+GSE22138 (63, 20848) events 35
+GSE44295 (57, 17544) events 24
+shared genes: 9067
+cohort                             GSE22138  GSE44295
+method                                               
+15-gene-class proxy                   0.703     0.684
+15-gene-class proxy + PRAME           0.689     0.724
+Adaptive LASSO, no anchoring          0.717     0.708
+Adaptive LASSO, positional prior      0.745     0.780
+Anchored adaptive LASSO               0.734     0.780
+Cox elastic net                       0.728     0.740
+Cox-LASSO                             0.705     0.729
+OASIS agent (original, consensus)     0.730     0.734
+OASIS-2 agent (policy ensemble)       0.725     0.724
+OASIS-2 agent (single signature)      0.762     0.781
+Random survival forest                0.721     0.744
+Univariate top-10 + ridge Cox         0.751     0.711
+OASIS (mean of 10 seeds)              0.739     0.739
+seed sd: {'GSE22138': 0.024, 'GSE44295': 0.03}
+consensus: ['ZSCAN18', 'SLC25A38', 'FOXD1', 'JPH1', 'CTF1', 'KLHL21', 'PLXNB1', 'CDCA7L']
