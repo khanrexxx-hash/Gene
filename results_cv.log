@@ -1,0 +1,14 @@
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+[Parallel(n_jobs=2)]: Done  14 tasks      | elapsed: 16.3min
+[Parallel(n_jobs=2)]: Done  50 out of  50 | elapsed: 51.7min finished
+                                     method  mean_C  sd_over_repeats  ci_low  ci_high  mean_n_genes  jaccard_stability
+                     Random survival forest   0.794            0.019   0.757    0.811           NaN                NaN
+              Univariate top-10 + ridge Cox   0.777            0.020   0.745    0.802         10.00              0.287
+             Anchor-weighted adaptive LASSO   0.775            0.026   0.745    0.815          5.78              0.189
+Clinical markers (chr3 loss, 8q gain, BAP1)   0.770            0.021   0.741    0.801           NaN                NaN
+                            Cox elastic net   0.766            0.022   0.728    0.793         53.50              0.120
+                               OASIS (full)   0.756            0.046   0.683    0.810          7.78              0.217
+                 OASIS w/o stability reward   0.753            0.051   0.674    0.807          8.30              0.214
+                  OASIS w/o anchoring prior   0.744            0.040   0.666    0.784          3.12              0.112
+                                  Cox-LASSO   0.739            0.036   0.682    0.794         18.04              0.065
+                    OASIS with random prior   0.730            0.062   0.641    0.816          5.50              0.009

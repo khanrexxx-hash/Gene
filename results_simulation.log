@@ -1,0 +1,73 @@
+{'S1 known risk arms': 368, 'S2 unknown regions': 429, 'S3 non-genomic drivers': 5395, 'S4 mixed': (429, 5395)}
+[Parallel(n_jobs=1)]: Done  40 tasks      | elapsed:  5.6min
+[Parallel(n_jobs=1)]: Done 161 tasks      | elapsed: 21.7min
+[Parallel(n_jobs=1)]: Done 364 tasks      | elapsed: 48.6min
+[Parallel(n_jobs=1)]: Done 400 out of 400 | elapsed: 53.6min finished
+              scenario  n_causal                 vs  mean_diff    se  wins
+    S1 known risk arms         5       no anchoring      0.004 0.006  0.50
+    S1 known risk arms         5 permuted anchoring      0.008 0.005  0.56
+    S1 known risk arms         5         positional      0.005 0.005  0.50
+    S1 known risk arms        20       no anchoring      0.000 0.007  0.54
+    S1 known risk arms        20 permuted anchoring      0.007 0.007  0.58
+    S1 known risk arms        20         positional      0.002 0.006  0.48
+    S2 unknown regions         5       no anchoring      0.016 0.007  0.58
+    S2 unknown regions         5 permuted anchoring      0.012 0.008  0.60
+    S2 unknown regions         5         positional      0.018 0.008  0.60
+    S2 unknown regions        20       no anchoring      0.008 0.006  0.60
+    S2 unknown regions        20 permuted anchoring      0.003 0.008  0.48
+    S2 unknown regions        20         positional      0.009 0.009  0.54
+S3 non-genomic drivers         5       no anchoring     -0.000 0.006  0.48
+S3 non-genomic drivers         5 permuted anchoring      0.001 0.006  0.44
+S3 non-genomic drivers         5         positional     -0.002 0.008  0.48
+S3 non-genomic drivers        20       no anchoring      0.009 0.006  0.60
+S3 non-genomic drivers        20 permuted anchoring      0.006 0.008  0.52
+S3 non-genomic drivers        20         positional      0.015 0.006  0.68
+              S4 mixed         5       no anchoring      0.014 0.006  0.62
+              S4 mixed         5 permuted anchoring      0.012 0.007  0.56
+              S4 mixed         5         positional      0.009 0.008  0.58
+              S4 mixed        20       no anchoring      0.016 0.006  0.72
+              S4 mixed        20 permuted anchoring      0.014 0.006  0.60
+              S4 mixed        20         positional      0.018 0.007  0.68
+              scenario  n_causal             method     C  C_se  recall  recall_block  precision  size
+    S1 known risk arms         5           anchored 0.631 0.012   0.047         0.138      0.044 7.356
+    S1 known risk arms         5       no anchoring 0.626 0.011   0.018         0.085      0.015 8.168
+    S1 known risk arms         5 permuted anchoring 0.623 0.012   0.017         0.086      0.014 7.300
+    S1 known risk arms         5         positional 0.626 0.012   0.048         0.144      0.048 7.112
+    S1 known risk arms        20           anchored 0.619 0.012   0.005         0.080      0.012 7.084
+    S1 known risk arms        20       no anchoring 0.619 0.011   0.002         0.042      0.003 7.896
+    S1 known risk arms        20 permuted anchoring 0.613 0.011   0.002         0.053      0.004 8.164
+    S1 known risk arms        20         positional 0.617 0.012   0.006         0.089      0.013 7.520
+    S2 unknown regions         5           anchored 0.608 0.014   0.066         0.118      0.056 7.332
+    S2 unknown regions         5       no anchoring 0.592 0.014   0.031         0.075      0.022 8.664
+    S2 unknown regions         5 permuted anchoring 0.597 0.013   0.030         0.075      0.020 8.732
+    S2 unknown regions         5         positional 0.590 0.013   0.019         0.058      0.014 8.276
+    S2 unknown regions        20           anchored 0.585 0.013   0.011         0.045      0.029 8.376
+    S2 unknown regions        20       no anchoring 0.578 0.013   0.002         0.022      0.004 9.048
+    S2 unknown regions        20 permuted anchoring 0.583 0.012   0.003         0.030      0.005 8.816
+    S2 unknown regions        20         positional 0.577 0.011   0.000         0.025      0.000 8.376
+S3 non-genomic drivers         5           anchored 0.598 0.011   0.018         0.070      0.008 7.752
+S3 non-genomic drivers         5       no anchoring 0.598 0.012   0.030         0.087      0.019 7.848
+S3 non-genomic drivers         5 permuted anchoring 0.597 0.012   0.027         0.085      0.016 8.108
+S3 non-genomic drivers         5         positional 0.600 0.014   0.024         0.096      0.011 8.228
+S3 non-genomic drivers        20           anchored 0.631 0.010   0.001         0.059      0.002 7.556
+S3 non-genomic drivers        20       no anchoring 0.621 0.011   0.004         0.061      0.007 8.340
+S3 non-genomic drivers        20 permuted anchoring 0.624 0.011   0.003         0.065      0.006 7.572
+S3 non-genomic drivers        20         positional 0.615 0.010   0.002         0.062      0.005 7.820
+              S4 mixed         5           anchored 0.618 0.014   0.031         0.097      0.021 7.228
+              S4 mixed         5       no anchoring 0.604 0.015   0.020         0.073      0.013 7.660
+              S4 mixed         5 permuted anchoring 0.606 0.013   0.019         0.081      0.014 7.992
+              S4 mixed         5         positional 0.610 0.015   0.013         0.070      0.007 7.604
+              S4 mixed        20           anchored 0.621 0.010   0.006         0.047      0.016 7.984
+              S4 mixed        20       no anchoring 0.605 0.012   0.003         0.041      0.009 8.048
+              S4 mixed        20 permuted anchoring 0.607 0.011   0.004         0.049      0.010 7.916
+              S4 mixed        20         positional 0.602 0.013   0.002         0.038      0.004 7.828
+                              ev    tc
+s                      n              
+S1 known risk arms     5   29.56  0.75
+                       20  29.60  0.74
+S2 unknown regions     5   29.44  0.73
+                       20  29.42  0.74
+S3 non-genomic drivers 5   29.42  0.75
+                       20  29.50  0.75
+S4 mixed               5   29.46  0.74
+                       20  29.66  0.74
