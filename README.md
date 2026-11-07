@@ -10,7 +10,7 @@ model without anchoring (direct control), a positional prior (genes on chromosom
 15-gene-class proxy, standard penalised models, a random survival forest, a univariate screen and a
 reinforcement-learning selector (supplement). Controls for weight spread (permuted anchoring, rescaled prior), cohort-stratified Cox models and a semi-synthetic simulation are included.
 
-Everything runs on a laptop CPU (2 cores, 7 GB RAM); no GPU needed.
+Everything runs on a laptop CPU; no GPU needed.
 
 ## Data (public, de-identified)
 
